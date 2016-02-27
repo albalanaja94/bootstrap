@@ -22,6 +22,7 @@
       }
     }
 
+
 .jumbotron{
 	  padding-top: 20px;
     padding-bottom: 20px;
@@ -63,6 +64,12 @@
 		background-color: #863C93;
 		& > ul{
 			& > li{
+				.dropdown-toggle{
+					background: url("../imagenes/flecha.png");
+					background-repeat: no-repeat;
+					background-position: 67px 17px;
+					padding-right: 20px;
+				}
 				& > a{
 					color: white;
 					font-size: 16px;
@@ -73,6 +80,19 @@
 						color: white;
 					}
 				}
+				ul{
+						background-color: #863C93;
+					li a{
+						color: white;
+						font-size: 16px;
+						font-family: 'Lato', sans-serif;
+						font-weight: 700;
+						&:hover, &.active{
+							@include rgba-fallback(bg, #C68ED0, 0.6);
+							color: white;
+					}
+					}
+				}
 			}
 		}
 	}
@@ -81,6 +101,11 @@
 	background-color: #FCEBF6;
 	#myCarousel{
 		margin-bottom: 5px;
+		.carousel-indicators li{
+			border: 3px solid white;
+			color: #863C93; 
+			width: 20px; height: 20px;
+		}
 		.carousel-inner{
 			.item{
 				& > img{
@@ -96,6 +121,7 @@
 			background-color: #863C93;
 			color: white;
 			padding: 10px 5px;
+			padding-left: 8px;
 			margin-top: 0;
 		}
 		.rows{
@@ -145,6 +171,145 @@
 		   &:hover{
 		   	color: black;
 		   }
+		}
+	}
+	.col-lg-8{
+		.posicion-geografica{
+			& > h3{
+				font-family: 'Lato', sans-serif;
+				font-weight: 700;
+				background-color: #863C93;
+				color: white;
+				padding: 10px 5px;
+				margin-top: 0;
+				padding-left: 8px;
+			}
+			.contenido-8{
+				padding: 0px 40px;
+				img, .contentLanaja{
+					display: inline-block;
+				}
+				img{
+					width: 60%;
+				}
+				.contentLanaja{
+					width: 39%;
+					box-sizing: border-box;
+					padding: 5px;
+    			vertical-align: top;
+    			font-family: 'Lato', sans-serif;
+    			font-size: 16px;
+    			text-align: justify;
+				}
+			}
+			.mapa{
+				padding: 0px 40px;
+				margin-top: 10px;
+				padding-bottom: 20px;
+			}
+			.tituloMapa{
+				margin-top: 30px;
+			}
+		}
+	}
+}
+
+.footer{
+	background-color: #863C93;
+	.direccion{
+		padding: 20px;
+		max-width: 1150px;
+		margin: 0 auto;
+		strong, p{
+			display: inline-block;
+			color: white;
+			font-family: 'Lato', sans-serif;
+			font-size: 16px;
+		}
+		& > strong{
+			padding-right: 5px;
+	    font-size: 17px;
+		}
+	}
+	.row{
+		.col-lg-5{
+			.redes-sociales{
+				padding-left: 90px;
+				p{
+					display: inline-block; 
+					color: #FEA3F6;
+					font-family: 'Lato', sans-serif;
+					font-size: 16px;
+					margin-right: -40px;
+				}
+				#sprite{
+					display: inline-block;
+					vertical-align: middle;
+					width: 254px; height: 86px;
+					background: url("../imagenes/spice-social-gadget-sprite.png");
+					margin: 10px auto;
+					padding: 0;
+					position: relative;
+					transform: scale(0.5);
+					li{
+						margin: 0;
+						padding: 0;
+						list-style: none;
+						position: absolute;
+						top:0;
+						a{
+							display: block;
+							height: 86px;
+						}
+					}
+					#panel1{
+						left: 0;
+						width: 86px;
+						a:hover{
+							background: url("../imagenes/spice-social-gadget-sprite.png")
+							0px -86px no-repeat;
+						}
+					}
+					#panel2{
+						left: 86px;
+						width: 86px;
+						a:hover{
+							background: url("../imagenes/spice-social-gadget-sprite.png")
+							-86px -86px no-repeat;
+						
+						}
+					}
+					#panel3{
+						left: 172px;
+						width: 86px;
+						a:hover{
+							background: url("../imagenes/spice-social-gadget-sprite.png")
+							-172px -86px no-repeat;
+						}
+					}
+				}
+			}
+		}
+		.col-lg-7{
+			margin-top: 55px;
+			padding-left: 230px;
+			a{
+				color: #FADEF8;
+				text-decoration: underline;
+				margin-right: 15px;
+				&:hover{
+					color:#FEA3F6;
+					font-family: 'Lato', sans-serif;
+				}
+			}
+			.imagenes{
+				margin-top: 20px;
+    		margin-left: 143px;
+    		padding-bottom: 20px;
+				.avanza{
+					background-color: white;
+				}
+			}
 		}
 	}
 }

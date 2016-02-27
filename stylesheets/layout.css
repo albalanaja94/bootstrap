@@ -1,23 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://fonts.googleapis.com/css?family=Lato:700);
-/* line 25, ../sass/layout.scss */
+/* line 26, ../sass/layout.scss */
 .jumbotron {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 0;
   background: linear-gradient(45deg, #d274ed 0%, #e0cce8 34%, #cfadd8 69%, #b58dc4 100%);
 }
-/* line 30, ../sass/layout.scss */
+/* line 31, ../sass/layout.scss */
 .jumbotron .container {
   width: 100%;
 }
-/* line 32, ../sass/layout.scss */
+/* line 33, ../sass/layout.scss */
 .jumbotron .container a > img {
   width: 100px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 37, ../sass/layout.scss */
+/* line 38, ../sass/layout.scss */
 .jumbotron .container > h1 {
   display: inline-block;
   vertical-align: middle;
@@ -27,86 +27,118 @@
   font-weight: bold;
   text-shadow: 4px 1px 3px white;
 }
-/* line 46, ../sass/layout.scss */
+/* line 47, ../sass/layout.scss */
 .jumbotron .container .redes-sociales {
   display: inline-block;
   float: right;
   margin-top: 50px;
 }
-/* line 50, ../sass/layout.scss */
+/* line 51, ../sass/layout.scss */
 .jumbotron .container .redes-sociales a > img {
   width: 100%;
 }
-/* line 53, ../sass/layout.scss */
+/* line 54, ../sass/layout.scss */
 .jumbotron .container .redes-sociales a:hover, .jumbotron .container .redes-sociales a:focus, .jumbotron .container .redes-sociales a:active {
   background: transparent;
 }
 
-/* line 59, ../sass/layout.scss */
+/* line 60, ../sass/layout.scss */
 .navbar-default {
   border: none;
   margin-bottom: 0;
 }
-/* line 62, ../sass/layout.scss */
+/* line 63, ../sass/layout.scss */
 .navbar-default #navbarCollapse {
   background-color: #863C93;
 }
-/* line 66, ../sass/layout.scss */
+/* line 67, ../sass/layout.scss */
+.navbar-default #navbarCollapse > ul > li .dropdown-toggle {
+  background: url("../imagenes/flecha.png");
+  background-repeat: no-repeat;
+  background-position: 67px 17px;
+  padding-right: 20px;
+}
+/* line 73, ../sass/layout.scss */
 .navbar-default #navbarCollapse > ul > li > a {
   color: white;
   font-size: 16px;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
 }
-/* line 71, ../sass/layout.scss */
+/* line 78, ../sass/layout.scss */
 .navbar-default #navbarCollapse > ul > li > a:hover, .navbar-default #navbarCollapse > ul > li > a.active {
   background-color: #C68ED0;
   background-color: rgba(198, 142, 208, 0.6);
   color: white;
 }
+/* line 83, ../sass/layout.scss */
+.navbar-default #navbarCollapse > ul > li ul {
+  background-color: #863C93;
+}
+/* line 85, ../sass/layout.scss */
+.navbar-default #navbarCollapse > ul > li ul li a {
+  color: white;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+/* line 90, ../sass/layout.scss */
+.navbar-default #navbarCollapse > ul > li ul li a:hover, .navbar-default #navbarCollapse > ul > li ul li a.active {
+  background-color: #C68ED0;
+  background-color: rgba(198, 142, 208, 0.6);
+  color: white;
+}
 
-/* line 80, ../sass/layout.scss */
+/* line 100, ../sass/layout.scss */
 .content {
   background-color: #FCEBF6;
 }
-/* line 82, ../sass/layout.scss */
+/* line 102, ../sass/layout.scss */
 .content #myCarousel {
   margin-bottom: 5px;
 }
-/* line 86, ../sass/layout.scss */
+/* line 104, ../sass/layout.scss */
+.content #myCarousel .carousel-indicators li {
+  border: 3px solid white;
+  color: #863C93;
+  width: 20px;
+  height: 20px;
+}
+/* line 111, ../sass/layout.scss */
 .content #myCarousel .carousel-inner .item > img {
   margin-top: -70px;
 }
-/* line 93, ../sass/layout.scss */
+/* line 118, ../sass/layout.scss */
 .content .col-lg-4 > h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   background-color: #863C93;
   color: white;
   padding: 10px 5px;
+  padding-left: 8px;
   margin-top: 0;
 }
-/* line 101, ../sass/layout.scss */
+/* line 127, ../sass/layout.scss */
 .content .col-lg-4 .rows {
   padding: 10px;
   margin-bottom: 10px;
 }
-/* line 104, ../sass/layout.scss */
+/* line 130, ../sass/layout.scss */
 .content .col-lg-4 .rows.odd {
   background-color: #F1C3E1;
 }
-/* line 107, ../sass/layout.scss */
+/* line 133, ../sass/layout.scss */
 .content .col-lg-4 .rows.last {
   margin-bottom: 20px;
 }
-/* line 110, ../sass/layout.scss */
+/* line 136, ../sass/layout.scss */
 .content .col-lg-4 .rows .fecha {
   font-style: italic;
   font-weight: bold;
   margin-bottom: 5px;
   font-family: 'Lato', sans-serif;
 }
-/* line 116, ../sass/layout.scss */
+/* line 142, ../sass/layout.scss */
 .content .col-lg-4 .rows .titulo {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -114,19 +146,19 @@
   color: #1C006B;
   margin-bottom: 10px;
 }
-/* line 123, ../sass/layout.scss */
+/* line 149, ../sass/layout.scss */
 .content .col-lg-4 .rows .contenido {
   font-family: 'Lato', sans-serif;
   margin-bottom: 20px;
 }
-/* line 126, ../sass/layout.scss */
+/* line 152, ../sass/layout.scss */
 .content .col-lg-4 .rows .contenido > a {
   background: url("../imagenes/pdf1.png");
   background-repeat: no-repeat;
   padding-left: 24px;
   padding-bottom: 2px;
 }
-/* line 133, ../sass/layout.scss */
+/* line 159, ../sass/layout.scss */
 .content .col-lg-4 .rows .mas {
   border: 1px solid #863C93;
   padding: 5px 10px;
@@ -134,13 +166,168 @@
   color: #863C93;
   font-family: 'Lato', sans-serif;
 }
-/* line 141, ../sass/layout.scss */
+/* line 167, ../sass/layout.scss */
 .content .col-lg-4 .masnoticias {
   color: #863C93;
   font-family: 'Lato', sans-serif;
   text-decoration: underline;
 }
-/* line 145, ../sass/layout.scss */
+/* line 171, ../sass/layout.scss */
 .content .col-lg-4 .masnoticias:hover {
   color: black;
+}
+/* line 178, ../sass/layout.scss */
+.content .col-lg-8 .posicion-geografica > h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  background-color: #863C93;
+  color: white;
+  padding: 10px 5px;
+  margin-top: 0;
+  padding-left: 8px;
+}
+/* line 187, ../sass/layout.scss */
+.content .col-lg-8 .posicion-geografica .contenido-8 {
+  padding: 0px 40px;
+}
+/* line 189, ../sass/layout.scss */
+.content .col-lg-8 .posicion-geografica .contenido-8 img, .content .col-lg-8 .posicion-geografica .contenido-8 .contentLanaja {
+  display: inline-block;
+}
+/* line 192, ../sass/layout.scss */
+.content .col-lg-8 .posicion-geografica .contenido-8 img {
+  width: 60%;
+}
+/* line 195, ../sass/layout.scss */
+.content .col-lg-8 .posicion-geografica .contenido-8 .contentLanaja {
+  width: 39%;
+  box-sizing: border-box;
+  padding: 5px;
+  vertical-align: top;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  text-align: justify;
+}
+/* line 205, ../sass/layout.scss */
+.content .col-lg-8 .posicion-geografica .mapa {
+  padding: 0px 40px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+/* line 210, ../sass/layout.scss */
+.content .col-lg-8 .posicion-geografica .tituloMapa {
+  margin-top: 30px;
+}
+
+/* line 217, ../sass/layout.scss */
+.footer {
+  background-color: #863C93;
+}
+/* line 219, ../sass/layout.scss */
+.footer .direccion {
+  padding: 20px;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+/* line 223, ../sass/layout.scss */
+.footer .direccion strong, .footer .direccion p {
+  display: inline-block;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+/* line 229, ../sass/layout.scss */
+.footer .direccion > strong {
+  padding-right: 5px;
+  font-size: 17px;
+}
+/* line 236, ../sass/layout.scss */
+.footer .row .col-lg-5 .redes-sociales {
+  padding-left: 90px;
+}
+/* line 238, ../sass/layout.scss */
+.footer .row .col-lg-5 .redes-sociales p {
+  display: inline-block;
+  color: #FEA3F6;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  margin-right: -40px;
+}
+/* line 245, ../sass/layout.scss */
+.footer .row .col-lg-5 .redes-sociales #sprite {
+  display: inline-block;
+  vertical-align: middle;
+  width: 254px;
+  height: 86px;
+  background: url("../imagenes/spice-social-gadget-sprite.png");
+  margin: 10px auto;
+  padding: 0;
+  position: relative;
+  transform: scale(0.5);
+}
+/* line 254, ../sass/layout.scss */
+.footer .row .col-lg-5 .redes-sociales #sprite li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+/* line 260, ../sass/layout.scss */
+.footer .row .col-lg-5 .redes-sociales #sprite li a {
+  display: block;
+  height: 86px;
+}
+/* line 265, ../sass/layout.scss */
+.footer .row .col-lg-5 .redes-sociales #sprite #panel1 {
+  left: 0;
+  width: 86px;
+}
+/* line 268, ../sass/layout.scss */
+.footer .row .col-lg-5 .redes-sociales #sprite #panel1 a:hover {
+  background: url("../imagenes/spice-social-gadget-sprite.png") 0px -86px no-repeat;
+}
+/* line 273, ../sass/layout.scss */
+.footer .row .col-lg-5 .redes-sociales #sprite #panel2 {
+  left: 86px;
+  width: 86px;
+}
+/* line 276, ../sass/layout.scss */
+.footer .row .col-lg-5 .redes-sociales #sprite #panel2 a:hover {
+  background: url("../imagenes/spice-social-gadget-sprite.png") -86px -86px no-repeat;
+}
+/* line 282, ../sass/layout.scss */
+.footer .row .col-lg-5 .redes-sociales #sprite #panel3 {
+  left: 172px;
+  width: 86px;
+}
+/* line 285, ../sass/layout.scss */
+.footer .row .col-lg-5 .redes-sociales #sprite #panel3 a:hover {
+  background: url("../imagenes/spice-social-gadget-sprite.png") -172px -86px no-repeat;
+}
+/* line 293, ../sass/layout.scss */
+.footer .row .col-lg-7 {
+  margin-top: 55px;
+  padding-left: 230px;
+}
+/* line 296, ../sass/layout.scss */
+.footer .row .col-lg-7 a {
+  color: #FADEF8;
+  text-decoration: underline;
+  margin-right: 15px;
+}
+/* line 300, ../sass/layout.scss */
+.footer .row .col-lg-7 a:hover {
+  color: #FEA3F6;
+  font-family: 'Lato', sans-serif;
+}
+/* line 305, ../sass/layout.scss */
+.footer .row .col-lg-7 .imagenes {
+  margin-top: 20px;
+  margin-left: 143px;
+  padding-bottom: 20px;
+}
+/* line 309, ../sass/layout.scss */
+.footer .row .col-lg-7 .imagenes .avanza {
+  background-color: white;
 }
