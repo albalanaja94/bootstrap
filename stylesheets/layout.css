@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Lato:700);
+/* line 25, ../sass/layout.scss */
+.jumbotron {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  background: linear-gradient(45deg, #d274ed 0%, #e0cce8 34%, #cfadd8 69%, #b58dc4 100%);
+}
+/* line 30, ../sass/layout.scss */
+.jumbotron .container {
+  width: 100%;
+}
+/* line 32, ../sass/layout.scss */
+.jumbotron .container a > img {
+  width: 100px;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 37, ../sass/layout.scss */
+.jumbotron .container > h1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-shadow: 4px 1px 3px white;
+}
+/* line 46, ../sass/layout.scss */
+.jumbotron .container .redes-sociales {
+  display: inline-block;
+  float: right;
+  margin-top: 50px;
+}
+/* line 50, ../sass/layout.scss */
+.jumbotron .container .redes-sociales a > img {
+  width: 100%;
+}
+/* line 53, ../sass/layout.scss */
+.jumbotron .container .redes-sociales a:hover, .jumbotron .container .redes-sociales a:focus, .jumbotron .container .redes-sociales a:active {
+  background: transparent;
+}
+
+/* line 59, ../sass/layout.scss */
+.navbar-default {
+  border: none;
+  margin-bottom: 0;
+}
+/* line 62, ../sass/layout.scss */
+.navbar-default #navbarCollapse {
+  background-color: #863C93;
+}
+/* line 66, ../sass/layout.scss */
+.navbar-default #navbarCollapse > ul > li > a {
+  color: white;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+/* line 71, ../sass/layout.scss */
+.navbar-default #navbarCollapse > ul > li > a:hover, .navbar-default #navbarCollapse > ul > li > a.active {
+  background-color: #C68ED0;
+  background-color: rgba(198, 142, 208, 0.6);
+  color: white;
+}
+
+/* line 80, ../sass/layout.scss */
+.content {
+  background-color: #FCEBF6;
+}
+/* line 82, ../sass/layout.scss */
+.content #myCarousel {
+  margin-bottom: 5px;
+}
+/* line 86, ../sass/layout.scss */
+.content #myCarousel .carousel-inner .item > img {
+  margin-top: -70px;
+}
+/* line 93, ../sass/layout.scss */
+.content .col-lg-4 > h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  background-color: #863C93;
+  color: white;
+  padding: 10px 5px;
+  margin-top: 0;
+}
+/* line 101, ../sass/layout.scss */
+.content .col-lg-4 .rows {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+/* line 104, ../sass/layout.scss */
+.content .col-lg-4 .rows.odd {
+  background-color: #F1C3E1;
+}
+/* line 107, ../sass/layout.scss */
+.content .col-lg-4 .rows.last {
+  margin-bottom: 20px;
+}
+/* line 110, ../sass/layout.scss */
+.content .col-lg-4 .rows .fecha {
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family: 'Lato', sans-serif;
+}
+/* line 116, ../sass/layout.scss */
+.content .col-lg-4 .rows .titulo {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1C006B;
+  margin-bottom: 10px;
+}
+/* line 123, ../sass/layout.scss */
+.content .col-lg-4 .rows .contenido {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 20px;
+}
+/* line 126, ../sass/layout.scss */
+.content .col-lg-4 .rows .contenido > a {
+  background: url("../imagenes/pdf1.png");
+  background-repeat: no-repeat;
+  padding-left: 24px;
+  padding-bottom: 2px;
+}
+/* line 133, ../sass/layout.scss */
+.content .col-lg-4 .rows .mas {
+  border: 1px solid #863C93;
+  padding: 5px 10px;
+  background-color: white;
+  color: #863C93;
+  font-family: 'Lato', sans-serif;
+}
+/* line 141, ../sass/layout.scss */
+.content .col-lg-4 .masnoticias {
+  color: #863C93;
+  font-family: 'Lato', sans-serif;
+  text-decoration: underline;
+}
+/* line 145, ../sass/layout.scss */
+.content .col-lg-4 .masnoticias:hover {
+  color: black;
+}
