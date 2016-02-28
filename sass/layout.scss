@@ -471,6 +471,10 @@
 					text-align: justify;
 					margin-bottom: 15px;
 				}
+				.videoL{
+					max-width: 300px;
+					margin: 0 auto;
+				}
 			}
 		}
 	}
@@ -503,6 +507,8 @@
     		padding: 25px 0px;
     		iframe{
     			box-shadow: 1px 2px 23px 10px rgba(224,162,224,1);
+    			width: 650px;
+    			height: 415px;
     		}
 			}
 			.fotografias{
@@ -676,10 +682,62 @@
 			}
 		}
 	}
+	.contentH{ 
+		.col-lg-7{
+			margin: 0;
+			h3{
+				padding-left: 20px;
+			}
+		}
+	}
+	input, select, textarea{
+		max-width: 480px;
+	}
+	.contentSM{
+		.col-lg-3 {
+	    display: inline-block;
+	    width: 33.3%;
+		}
+	}
+	.contentSS{
+		.row{
+			margin: 0;
+			.col-lg-5, .col-lg-8{
+				display: inline-block;
+				width: 60%;
+			}
+			.col-lg-3, .col-lg-4.double{
+				display: inline-block;
+				width: 39%;
+				vertical-align: top;
+			}
+			.col-lg-4{
+				margin-bottom: 20px;
+			}
+			.col-lg-8{
+				margin-top: 20px;
+			}
+			.col-lg-4.double{
+				margin-top: 20px;
+				.imagenesSanJose > img{
+					max-width: 280px;
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
 }
 
 @media all and (max-width: 1024px){
 
+}
+
+@media all and (max-width: 870px){
+	.contentSM{
+		.col-lg-3 {
+	    width: 50%;
+		}
+	}
 }
 
 @media all and (max-width: 768px){
@@ -731,6 +789,72 @@
 			}
 		}
 	}
+	.contentT{ 
+		.verMas{ 
+			.imagenTrazado{ 
+				.imagenesTra{ 
+					& > .imagen1{
+						display: block;
+						width: 295px !important;
+						margin: 0 auto;
+					}
+				}
+			}
+			& > h1{
+				font-size: 30px;
+			}
+		}
+	}
+	.contentSM > .dance{
+		max-width: 550px;
+		iframe{
+			width: 550px;
+		}
+	}
+	.contentSS{
+		.row{
+			margin: 0;
+			.col-lg-5, .col-lg-8{
+				display: block;
+				width: 100%;
+			}
+			.col-lg-3, .col-lg-4.double{
+				display: block;
+				width: 100%;
+			}
+			.col-lg-3{
+				margin-bottom: 20px;
+				.hoguera{
+					max-width: 280px;
+    			margin: 0 auto;
+				}
+			}
+			.col-lg-4{
+				margin-bottom: 20px;
+				.video{ 
+					width: 280px;
+					margin: 0 auto;
+					iframe{
+						width: 280px;
+					}
+				}
+			}
+			.col-lg-8{
+				margin-top: 20px;
+			}
+			.col-lg-4.double{
+				margin-top: 20px;
+				.imagenesSanJose{ 
+					max-width: 280px;
+					margin: 0 auto;
+					margin-bottom: 20px;
+					> img{
+						margin-bottom: 20px;
+					}
+				}
+			}
+		}
+	}
 }
 
 @media all and (max-width: 600px){
@@ -749,6 +873,9 @@
 						width: 100%;
 					}
 				}
+				.mapa{
+					width: 500px;
+				}
 			}
 		}
 		#myCarousel{
@@ -760,13 +887,174 @@
 				}
 			}
 		}
+		iframe{
+			width: 500px;
+		}
+	}
+	.contentSM{
+		.col-lg-3 {
+	    width: 100%;
+		}
+	}
+	.contentSM > .dance{
+		max-width: 450px;
+		iframe{
+			width: 450px;
+	    height: 300px;
+		}
+	}
+}
+
+@media all and (max-width: 534px){
+	.content{ 
+		.col-lg-8{ 
+			.posicion-geografica{ 
+				.mapa{
+					width: 400px;
+				}
+			}
+		}
+		iframe{
+			width: 400px;
+		}
+	}
+	.contentSM > .dance{
+		max-width: 400px;
+		iframe{
+			width: 400px;
+	    height: 280px;
+		}
 	}
 }
 
 @media all and (max-width: 480px){
+	.content{ 
+		#myCarousel{
+			.carousel-inner{
+				.item{
+					& > img{
+						margin-top: 0px;
+					}
+				}
+			}
+		}
+			.col-lg-8{ 
+			.posicion-geografica{ 
+				& > h3{
+					font-size: 21px;
+				}
+				.contenido-8{
+					.contentLanaja{
+						font-size: 15px;
+					}
+				}
+			}
+		}
+	}
+	.footer{ 
+		.row{ 
+			.col-lg-7{ 
+				a{
+					margin-right: 5px;
+				}
+			}
+		}
+	}
+	.jumbotron{
+		.container > h1 {
+	    font-size: 37px;
+	  }
+	  .container{
+	  	a > img{
+				width: 70px;
+	  	}
+	  }
+	}
+	.contentSM > .dance{
+		max-width: 350px;
+		iframe{
+			width: 350px;
+	    height: 240px;
+		}
+	}
+}
 
+@media all and (max-width: 420px){
+	.footer{ 
+		.row{ 
+			.col-lg-7{ 
+				display: none;
+			}
+		}
+	}
+	.content{ 
+		.col-lg-8{ 
+			.posicion-geografica{ 
+				.mapa{
+					width: 300px;
+				}
+			}
+		}
+		iframe{
+			width: 300px;
+		}
+		.col-lg-4{
+			.pdf > h3{
+				font-size: 18px;
+			}
+		}
+	}
+	.contentSM > .dance{
+		max-width: 300px;
+		iframe{
+			width: 300px;
+	    height: 200px;
+		}
+	}
+}
+
+@media all and (max-width: 380px){
+	.jumbotron{ 
+		.container > h1{
+			font-size: 30px;
+		}
+		.container a > img{
+			width: 60px;
+		}
+	}
+	.contentL{ 
+		.col-lg-4{ 
+			& > .leyenda{
+				padding: 3px;
+				& > p{
+					padding: 0px 10px;
+				}
+			}
+		}
+	}
+	.contentSM > .dance{
+		max-width: 280px;
+		iframe{
+			width: 280px;
+	    height: 180px;
+		}
+	}
 }
 
 @media all and (max-width: 320px){
-
+	.carousel-indicators{
+		bottom: -12px;
+	}
+	.content{ 
+		.col-lg-8{ 
+			.posicion-geografica{ 
+				.contenido-8{
+					padding: 0px 20px;
+				}
+			}
+		}
+	}
+	.contentSM .fotografias{
+		margin-left: 28px;
+	}
 }
