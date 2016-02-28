@@ -176,7 +176,13 @@
 .content .col-lg-4 .masnoticias:hover {
   color: black;
 }
-/* line 177, ../sass/layout.scss */
+/* line 174, ../sass/layout.scss */
+.content .col-lg-4 .pdf {
+  color: #863C93;
+  font-family: 'Lato', sans-serif;
+  text-decoration: underline;
+}
+/* line 182, ../sass/layout.scss */
 .content .col-lg-8 .posicion-geografica > h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -186,19 +192,19 @@
   margin-top: 0;
   padding-left: 8px;
 }
-/* line 186, ../sass/layout.scss */
+/* line 191, ../sass/layout.scss */
 .content .col-lg-8 .posicion-geografica .contenido-8 {
   padding: 0px 40px;
 }
-/* line 188, ../sass/layout.scss */
+/* line 193, ../sass/layout.scss */
 .content .col-lg-8 .posicion-geografica .contenido-8 img, .content .col-lg-8 .posicion-geografica .contenido-8 .contentLanaja {
   display: inline-block;
 }
-/* line 191, ../sass/layout.scss */
+/* line 196, ../sass/layout.scss */
 .content .col-lg-8 .posicion-geografica .contenido-8 img {
   width: 60%;
 }
-/* line 194, ../sass/layout.scss */
+/* line 199, ../sass/layout.scss */
 .content .col-lg-8 .posicion-geografica .contenido-8 .contentLanaja {
   width: 39%;
   box-sizing: border-box;
@@ -208,44 +214,44 @@
   font-size: 16px;
   text-align: justify;
 }
-/* line 204, ../sass/layout.scss */
+/* line 209, ../sass/layout.scss */
 .content .col-lg-8 .posicion-geografica .mapa {
   padding: 0px 40px;
   margin-top: 10px;
   padding-bottom: 20px;
 }
-/* line 209, ../sass/layout.scss */
+/* line 214, ../sass/layout.scss */
 .content .col-lg-8 .posicion-geografica .tituloMapa {
   margin-top: 30px;
 }
 
-/* line 216, ../sass/layout.scss */
+/* line 221, ../sass/layout.scss */
 .footer {
   background-color: #863C93;
 }
-/* line 218, ../sass/layout.scss */
+/* line 223, ../sass/layout.scss */
 .footer .direccion {
   padding: 20px;
   max-width: 1150px;
   margin: 0 auto;
 }
-/* line 222, ../sass/layout.scss */
+/* line 227, ../sass/layout.scss */
 .footer .direccion strong, .footer .direccion p {
   display: inline-block;
   color: white;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
 }
-/* line 228, ../sass/layout.scss */
+/* line 233, ../sass/layout.scss */
 .footer .direccion > strong {
   padding-right: 5px;
   font-size: 17px;
 }
-/* line 235, ../sass/layout.scss */
+/* line 240, ../sass/layout.scss */
 .footer .row .col-lg-5 .redes-sociales {
   padding-left: 90px;
 }
-/* line 237, ../sass/layout.scss */
+/* line 242, ../sass/layout.scss */
 .footer .row .col-lg-5 .redes-sociales p {
   display: inline-block;
   color: #FEA3F6;
@@ -253,7 +259,7 @@
   font-size: 16px;
   margin-right: -40px;
 }
-/* line 244, ../sass/layout.scss */
+/* line 249, ../sass/layout.scss */
 .footer .row .col-lg-5 .redes-sociales #sprite {
   display: inline-block;
   vertical-align: middle;
@@ -265,7 +271,7 @@
   position: relative;
   transform: scale(0.5);
 }
-/* line 253, ../sass/layout.scss */
+/* line 258, ../sass/layout.scss */
 .footer .row .col-lg-5 .redes-sociales #sprite li {
   margin: 0;
   padding: 0;
@@ -273,70 +279,70 @@
   position: absolute;
   top: 0;
 }
-/* line 259, ../sass/layout.scss */
+/* line 264, ../sass/layout.scss */
 .footer .row .col-lg-5 .redes-sociales #sprite li a {
   display: block;
   height: 86px;
 }
-/* line 264, ../sass/layout.scss */
+/* line 269, ../sass/layout.scss */
 .footer .row .col-lg-5 .redes-sociales #sprite #panel1 {
   left: 0;
   width: 86px;
 }
-/* line 267, ../sass/layout.scss */
+/* line 272, ../sass/layout.scss */
 .footer .row .col-lg-5 .redes-sociales #sprite #panel1 a:hover {
   background: url("../imagenes/spice-social-gadget-sprite.png") 0px -86px no-repeat;
 }
-/* line 272, ../sass/layout.scss */
+/* line 277, ../sass/layout.scss */
 .footer .row .col-lg-5 .redes-sociales #sprite #panel2 {
   left: 86px;
   width: 86px;
 }
-/* line 275, ../sass/layout.scss */
+/* line 280, ../sass/layout.scss */
 .footer .row .col-lg-5 .redes-sociales #sprite #panel2 a:hover {
   background: url("../imagenes/spice-social-gadget-sprite.png") -86px -86px no-repeat;
 }
-/* line 281, ../sass/layout.scss */
+/* line 286, ../sass/layout.scss */
 .footer .row .col-lg-5 .redes-sociales #sprite #panel3 {
   left: 172px;
   width: 86px;
 }
-/* line 284, ../sass/layout.scss */
+/* line 289, ../sass/layout.scss */
 .footer .row .col-lg-5 .redes-sociales #sprite #panel3 a:hover {
   background: url("../imagenes/spice-social-gadget-sprite.png") -172px -86px no-repeat;
 }
-/* line 292, ../sass/layout.scss */
+/* line 297, ../sass/layout.scss */
 .footer .row .col-lg-7 {
   margin-top: 55px;
   padding-left: 230px;
 }
-/* line 295, ../sass/layout.scss */
+/* line 300, ../sass/layout.scss */
 .footer .row .col-lg-7 a {
   color: #FADEF8;
   text-decoration: underline;
   margin-right: 15px;
 }
-/* line 299, ../sass/layout.scss */
+/* line 304, ../sass/layout.scss */
 .footer .row .col-lg-7 a:hover {
   color: #FEA3F6;
   font-family: 'Lato', sans-serif;
 }
-/* line 304, ../sass/layout.scss */
+/* line 309, ../sass/layout.scss */
 .footer .row .col-lg-7 .imagenes {
   margin-top: 20px;
   margin-left: 143px;
   padding-bottom: 20px;
 }
-/* line 308, ../sass/layout.scss */
+/* line 313, ../sass/layout.scss */
 .footer .row .col-lg-7 .imagenes .avanza {
   background-color: white;
 }
 
-/* line 317, ../sass/layout.scss */
+/* line 322, ../sass/layout.scss */
 .contentH {
   background-color: #FCEBF6;
 }
-/* line 319, ../sass/layout.scss */
+/* line 324, ../sass/layout.scss */
 .contentH .col-lg-7 {
   padding: 10px;
   font-family: 'Lato', sans-serif;
@@ -344,7 +350,7 @@
   margin: 10px 0px;
   margin-left: -20px;
 }
-/* line 325, ../sass/layout.scss */
+/* line 330, ../sass/layout.scss */
 .contentH .col-lg-7 .contenidoHistoria {
   background-color: #F8BFF3;
   background-color: rgba(248, 191, 243, 0.6);
@@ -352,7 +358,7 @@
   padding: 10px 20px;
   text-align: justify;
 }
-/* line 331, ../sass/layout.scss */
+/* line 336, ../sass/layout.scss */
 .contentH .col-lg-7 h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -362,36 +368,36 @@
   padding-left: 8px;
   margin: 0;
 }
-/* line 342, ../sass/layout.scss */
+/* line 347, ../sass/layout.scss */
 .contentH .col-lg-5 .imagenhistoria {
   width: 300px;
   margin: 0 auto;
   padding-bottom: 20px;
 }
-/* line 346, ../sass/layout.scss */
+/* line 351, ../sass/layout.scss */
 .contentH .col-lg-5 .imagenhistoria > img {
   max-width: 300px;
   margin-bottom: 10px;
   border: 3px outset #BF41B4;
 }
-/* line 351, ../sass/layout.scss */
+/* line 356, ../sass/layout.scss */
 .contentH .col-lg-5 .imagenhistoria > p {
   text-align: center;
   font-family: 'Lato', sans-serif;
   font-style: italic;
   font-size: 15px;
 }
-/* line 358, ../sass/layout.scss */
+/* line 363, ../sass/layout.scss */
 .contentH .col-lg-5 > .imagenhistoria:first-child {
   padding: 20px 0px;
 }
 
-/* line 365, ../sass/layout.scss */
+/* line 370, ../sass/layout.scss */
 .contentT {
   background-color: #FCEBF6;
   padding-top: 20px;
 }
-/* line 368, ../sass/layout.scss */
+/* line 373, ../sass/layout.scss */
 .contentT .contenido-trazado {
   background-color: #F8BFF3;
   background-color: rgba(248, 191, 243, 0.6);
@@ -400,11 +406,11 @@
   font-family: 'Lato', sans-serif;
   font-size: 15px;
 }
-/* line 375, ../sass/layout.scss */
+/* line 380, ../sass/layout.scss */
 .contentT .verMas {
   cursor: pointer;
 }
-/* line 377, ../sass/layout.scss */
+/* line 382, ../sass/layout.scss */
 .contentT .verMas > h1 {
   width: 234px;
   text-align: center;
@@ -416,38 +422,38 @@
   font-weight: 700;
   color: white;
 }
-/* line 387, ../sass/layout.scss */
+/* line 392, ../sass/layout.scss */
 .contentT .verMas .imagenTrazado {
   display: none;
   background-color: #5E3964;
   background-color: rgba(94, 57, 100, 0.6);
 }
-/* line 390, ../sass/layout.scss */
+/* line 395, ../sass/layout.scss */
 .contentT .verMas .imagenTrazado .imagenesTra {
   max-width: 900px;
   margin: 0 auto;
   padding: 25px 0px;
 }
-/* line 394, ../sass/layout.scss */
+/* line 399, ../sass/layout.scss */
 .contentT .verMas .imagenTrazado .imagenesTra > .imagen1:first-child {
   width: 59%;
 }
-/* line 397, ../sass/layout.scss */
+/* line 402, ../sass/layout.scss */
 .contentT .verMas .imagenTrazado .imagenesTra > .imagen1:last-child {
   width: 40%;
 }
-/* line 400, ../sass/layout.scss */
+/* line 405, ../sass/layout.scss */
 .contentT .verMas .imagenTrazado .imagenesTra > .imagen1 {
   display: inline-block;
 }
-/* line 402, ../sass/layout.scss */
+/* line 407, ../sass/layout.scss */
 .contentT .verMas .imagenTrazado .imagenesTra > .imagen1 > img {
   max-width: 300px;
   border: 1px dashed #F8BFF3;
   max-height: 190px;
   margin-bottom: 15px;
 }
-/* line 408, ../sass/layout.scss */
+/* line 413, ../sass/layout.scss */
 .contentT .verMas .imagenTrazado .imagenesTra > .imagen1 > p {
   font-family: 'Lato', sans-serif;
   font-style: italic;
@@ -455,12 +461,12 @@
   font-size: 15px;
 }
 
-/* line 421, ../sass/layout.scss */
+/* line 426, ../sass/layout.scss */
 .contentL {
   background-color: #FCEBF6;
   padding-top: 20px;
 }
-/* line 425, ../sass/layout.scss */
+/* line 430, ../sass/layout.scss */
 .contentL .col-lg-8 > h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -470,7 +476,7 @@
   padding-left: 8px;
   margin: 0;
 }
-/* line 434, ../sass/layout.scss */
+/* line 439, ../sass/layout.scss */
 .contentL .col-lg-8 > .rows {
   background-color: #F8BFF3;
   background-color: rgba(248, 191, 243, 0.6);
@@ -480,7 +486,7 @@
   font-family: 'Lato', sans-serif;
   font-size: 15px;
 }
-/* line 441, ../sass/layout.scss */
+/* line 446, ../sass/layout.scss */
 .contentL .col-lg-8 > .rows .titulo {
   font-size: 17px;
   margin-bottom: 10px;
@@ -488,11 +494,11 @@
   font-weight: 700;
   color: #1C006B;
 }
-/* line 450, ../sass/layout.scss */
+/* line 455, ../sass/layout.scss */
 .contentL .col-lg-4 {
   font-family: 'Lato', sans-serif;
 }
-/* line 452, ../sass/layout.scss */
+/* line 457, ../sass/layout.scss */
 .contentL .col-lg-4 > h3 {
   font-weight: 700;
   background-color: #863C93;
@@ -501,27 +507,27 @@
   padding-left: 8px;
   margin: 0;
 }
-/* line 460, ../sass/layout.scss */
+/* line 465, ../sass/layout.scss */
 .contentL .col-lg-4 > .leyenda {
   background-color: #F8BFF3;
   background-color: rgba(248, 191, 243, 0.6);
   padding: 10px;
   margin-bottom: 15px;
 }
-/* line 464, ../sass/layout.scss */
+/* line 469, ../sass/layout.scss */
 .contentL .col-lg-4 > .leyenda > p {
   font-size: 15px;
   text-align: justify;
   margin-bottom: 15px;
 }
 
-/* line 475, ../sass/layout.scss */
+/* line 480, ../sass/layout.scss */
 .contentSM {
   background-color: #FCEBF6;
   padding-top: 20px;
   font-family: 'Lato', sans-serif;
 }
-/* line 479, ../sass/layout.scss */
+/* line 484, ../sass/layout.scss */
 .contentSM > h3 {
   font-weight: 700;
   background-color: #863C93;
@@ -530,39 +536,39 @@
   padding-left: 8px;
   margin: 0 10px;
 }
-/* line 487, ../sass/layout.scss */
+/* line 492, ../sass/layout.scss */
 .contentSM > .introduccion {
   margin: 10px;
   font-size: 15px;
   background-color: #F8BFF3;
   background-color: rgba(248, 191, 243, 0.6);
 }
-/* line 491, ../sass/layout.scss */
+/* line 496, ../sass/layout.scss */
 .contentSM > .introduccion p {
   padding: 10px;
 }
-/* line 495, ../sass/layout.scss */
+/* line 500, ../sass/layout.scss */
 .contentSM > .dance {
   max-width: 650px;
   margin: 0 auto;
   padding: 25px 0px;
 }
-/* line 499, ../sass/layout.scss */
+/* line 504, ../sass/layout.scss */
 .contentSM > .dance iframe {
   box-shadow: 1px 2px 23px 10px #e0a2e0;
 }
-/* line 503, ../sass/layout.scss */
+/* line 508, ../sass/layout.scss */
 .contentSM .fotografias {
   margin: 10px;
   margin-left: 35px;
   margin-right: 0;
 }
-/* line 508, ../sass/layout.scss */
+/* line 513, ../sass/layout.scss */
 .contentSM .fotografias .col-lg-3 > img {
   max-width: 250px;
   min-height: 175px;
 }
-/* line 512, ../sass/layout.scss */
+/* line 517, ../sass/layout.scss */
 .contentSM .fotografias .col-lg-3 > p {
   margin-bottom: 15px;
   padding: 10px;
@@ -575,26 +581,26 @@
   background-color: rgba(134, 60, 147, 0.6);
 }
 
-/* line 526, ../sass/layout.scss */
+/* line 531, ../sass/layout.scss */
 .contentSS {
   background-color: #FCEBF6;
   padding-top: 20px;
   font-family: 'Lato', sans-serif;
 }
-/* line 531, ../sass/layout.scss */
+/* line 536, ../sass/layout.scss */
 .contentSS .col-lg-4 .video {
   width: 360px;
   margin: 0 auto;
 }
-/* line 534, ../sass/layout.scss */
+/* line 539, ../sass/layout.scss */
 .contentSS .col-lg-4 .video iframe {
   box-shadow: 1px 2px 23px 10px #e0a2e0;
 }
-/* line 539, ../sass/layout.scss */
+/* line 544, ../sass/layout.scss */
 .contentSS .col-lg-5 {
   margin-bottom: 15px;
 }
-/* line 541, ../sass/layout.scss */
+/* line 546, ../sass/layout.scss */
 .contentSS .col-lg-5 > h3 {
   font-weight: 700;
   background-color: #863C93;
@@ -602,23 +608,23 @@
   padding: 10px;
   margin: 0;
 }
-/* line 548, ../sass/layout.scss */
+/* line 553, ../sass/layout.scss */
 .contentSS .col-lg-5 .historia {
   background-color: #F8BFF3;
   background-color: rgba(248, 191, 243, 0.6);
   padding: 10px;
   font-size: 15px;
 }
-/* line 556, ../sass/layout.scss */
+/* line 561, ../sass/layout.scss */
 .contentSS .col-lg-3 .hoguera > img {
   max-width: 280px;
   box-shadow: 1px 2px 23px 10px #e0a2e0;
 }
-/* line 562, ../sass/layout.scss */
+/* line 567, ../sass/layout.scss */
 .contentSS .col-lg-8 {
   margin-bottom: 15px;
 }
-/* line 564, ../sass/layout.scss */
+/* line 569, ../sass/layout.scss */
 .contentSS .col-lg-8 > h3 {
   font-weight: 700;
   background-color: #863C93;
@@ -626,35 +632,35 @@
   padding: 10px;
   margin: 0;
 }
-/* line 571, ../sass/layout.scss */
+/* line 576, ../sass/layout.scss */
 .contentSS .col-lg-8 > .contenidoSanJose {
   background-color: #F8BFF3;
   background-color: rgba(248, 191, 243, 0.6);
   padding: 10px;
   font-size: 15px;
 }
-/* line 578, ../sass/layout.scss */
+/* line 583, ../sass/layout.scss */
 .contentSS .col-lg-4.double {
   margin-bottom: 30px;
 }
-/* line 580, ../sass/layout.scss */
+/* line 585, ../sass/layout.scss */
 .contentSS .col-lg-4.double .imagenesSanJose {
   max-width: 350px;
   margin: 0 auto;
 }
-/* line 583, ../sass/layout.scss */
+/* line 588, ../sass/layout.scss */
 .contentSS .col-lg-4.double .imagenesSanJose > img {
   max-width: 350px;
   box-shadow: 1px 2px 23px 10px #e0a2e0;
 }
 
-/* line 591, ../sass/layout.scss */
+/* line 596, ../sass/layout.scss */
 .contentA {
   background-color: #FCEBF6;
   padding-top: 20px;
   font-family: 'Lato', sans-serif;
 }
-/* line 596, ../sass/layout.scss */
+/* line 601, ../sass/layout.scss */
 .contentA .col-lg-6.first > h3 {
   font-weight: 700;
   background-color: #863C93;
@@ -662,7 +668,7 @@
   padding: 10px;
   margin: 0;
 }
-/* line 603, ../sass/layout.scss */
+/* line 608, ../sass/layout.scss */
 .contentA .col-lg-6.first .alcalde {
   background-color: #F8BFF3;
   background-color: rgba(248, 191, 243, 0.6);
@@ -670,20 +676,20 @@
   font-size: 15px;
   margin-bottom: 15px;
 }
-/* line 609, ../sass/layout.scss */
+/* line 614, ../sass/layout.scss */
 .contentA .col-lg-6.first .diputados {
   background-color: #F8BFF3;
   background-color: rgba(248, 191, 243, 0.6);
 }
-/* line 611, ../sass/layout.scss */
+/* line 616, ../sass/layout.scss */
 .contentA .col-lg-6.first .diputados > li {
   padding: 5px;
 }
-/* line 616, ../sass/layout.scss */
+/* line 621, ../sass/layout.scss */
 .contentA .col-lg-6.last {
   margin-bottom: 15px;
 }
-/* line 618, ../sass/layout.scss */
+/* line 623, ../sass/layout.scss */
 .contentA .col-lg-6.last > h3 {
   font-weight: 700;
   background-color: #863C93;
@@ -691,7 +697,7 @@
   padding: 10px;
   margin: 0;
 }
-/* line 625, ../sass/layout.scss */
+/* line 630, ../sass/layout.scss */
 .contentA .col-lg-6.last > .horario {
   background-color: #F8BFF3;
   background-color: rgba(248, 191, 243, 0.6);
@@ -699,13 +705,13 @@
   font-size: 15px;
   margin-bottom: 15px;
 }
-/* line 631, ../sass/layout.scss */
+/* line 636, ../sass/layout.scss */
 .contentA .col-lg-6.last form {
   background-color: #F8BFF3;
   background-color: rgba(248, 191, 243, 0.6);
   padding: 10px;
 }
-/* line 634, ../sass/layout.scss */
+/* line 639, ../sass/layout.scss */
 .contentA .col-lg-6.last form .btn-default {
   margin-bottom: 20px;
   background-color: #863C93;
@@ -713,12 +719,81 @@
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 640, ../sass/layout.scss */
+/* line 645, ../sass/layout.scss */
 .contentA .col-lg-6.last form .btn-default:hover {
   background-color: #863C93;
   background-color: rgba(134, 60, 147, 0.5);
 }
-/* line 644, ../sass/layout.scss */
+/* line 649, ../sass/layout.scss */
 .contentA .col-lg-6.last form p {
   font-style: italic;
+}
+
+@media all and (max-width: 1199px) {
+  /* line 661, ../sass/layout.scss */
+  .footer .row .col-lg-7 {
+    margin-top: 0px;
+    padding-left: 0px;
+    text-align: right;
+  }
+
+  /* line 671, ../sass/layout.scss */
+  .content .col-lg-8 .posicion-geografica .mapa {
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 689, ../sass/layout.scss */
+  .footer .row .col-lg-5 .redes-sociales {
+    padding-left: 20px;
+  }
+
+  /* line 697, ../sass/layout.scss */
+  .content .col-lg-4 .masnoticias, .content .col-lg-4 .pdf > h3 {
+    padding: 0px 10px;
+  }
+  /* line 702, ../sass/layout.scss */
+  .content #myCarousel .carousel-inner .item > img {
+    margin-top: -50px;
+  }
+
+  /* line 711, ../sass/layout.scss */
+  .jumbotron .container .redes-sociales {
+    display: none;
+  }
+  /* line 714, ../sass/layout.scss */
+  .jumbotron .container > h1 {
+    font-size: 42px;
+  }
+  /* line 717, ../sass/layout.scss */
+  .jumbotron .container a > img {
+    width: 85px;
+  }
+
+  /* line 722, ../sass/layout.scss */
+  .navbar-default {
+    background-color: #863C93;
+    background-color: #863c93;
+  }
+  /* line 727, ../sass/layout.scss */
+  .navbar-default #navbarCollapse > ul > li .dropdown-toggle {
+    background-position: 67px 12px;
+  }
+}
+@media all and (max-width: 600px) {
+  /* line 739, ../sass/layout.scss */
+  .content .col-lg-4 .pdf > h3 {
+    font-size: 20px;
+  }
+
+  /* line 748, ../sass/layout.scss */
+  .content .col-lg-8 .posicion-geografica .contenido-8 .contentLanaja, .content .col-lg-8 .posicion-geografica .contenido-8 img {
+    width: 100%;
+  }
+  /* line 757, ../sass/layout.scss */
+  .content #myCarousel .carousel-inner .item > img {
+    margin-top: -20px;
+  }
 }
