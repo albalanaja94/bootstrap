@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plantilla básica de Bootstrap</title>
+ 
+    <!-- CSS de Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="../stylesheets/layout.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+  <header>
+    <div class="jumbotron">
+      <div class="container">
+        <a href="index.html"><img src="../imagenes/escudo.png" id="escudo"/></a>
+        <h1>Villa de Lanaja</h1>
+        <div class="redes-sociales">
+        <ul class="nav navbar-nav">
+          <li><a href="#"><img src="../imagenes/ico-facebook.png" id="facebook"/></a></li>
+          <li><a href="#"><img src="../imagenes/ico-twitter.png" id="twitter"/></a></li>
+          <li><a href="#"><img src="../imagenes/ico-googleplus.png" id="wikipedia"/></a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <nav role="navigation" class="navbar navbar-default">
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="historia.html" class="active">Historia</a></li>
+                    <li><a href="trazado.html">Trazado urbano</a></li>
+                    <li><a href="#">Leyendas</a></li>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Fiestas</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">San Mateo</a></li>
+                        <li><a href="#">San Sebastián</a></li>
+                        <li><a href="#">San José</a></li>
+                      </ul>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    </header>
+
+  <div class="contentH">
+    <div class="row"> 
+    <div class="col-lg-5">
+    <div class="imagenhistoria">
+    <img src="../imagenes/cartujo.jpg" alt="">
+    <p>La Cartuja de las Fuentes</p>
+    </div>
+    <div class="imagenhistoria">
+    <img src="../imagenes/iglesia.jpg" alt="">
+    <p>Iglesia de Nuestra Señora de la Asunción</p>
+    </div>
+      </div>
+      <div class="col-lg-7">
+      <h3>Historia</h3>
+      <div class="contenidoHistoria">
+      <p>El topónimo Lanaja es de origen árabe. En el siglo X, varias mesnadas de Abderramán III fueron en auxilio del rey de Zaragoza Abu Yahya, al mando de Nadja, antiguo esclavo que llego a ser el primer general del Califato. Una hipótesis dice que se dio el nombre de Al Nadja a este pueblo en nombre de la hermana del general Nadja. </p>
+      <p>Jerónimo Zurita, historiador del siglo XVI, cree que fueron los guerreros franceses quienes se apoderaron de todas estas tierras entre 1114 y 1118, por tanto, se puede situar la reconquista cristiana de Lanaja en torno a 1115. </p>
+      <p>Posteriormente, Jaime I entregó Lanaja a la Orden Hospitalaria de San Juan de Jerusalén, con sede en el Monasterio de Sigena. La dependencia del monasterio perduró hasta mediados del siglo XVIII, momento en el que Lanaja comenzó su vida como municipio independiente. </p>
+      <p>En 1507, se establecieron los Cartujos de San Bruno en lo que hoy es la Cartuja de la Virgen de las Fuentes. Con la desamortización de Mendizábal, la Cartuja pasó a manos de sus actuales dueños, la casa de Bastaras. </p>
+      <p>En el siglo XIX, Lanaja sufrió las correrías de los carlistas y de varias partidas de bandoleros, que operaban en la comarca desde sus refugios en la cercana sierra de Lanaja y Alcubierre. </p>
+      <p>El término municipal de Lanaja, fue escenario de la muerte del legendario bandolero Mariano Gavín Suñén, más conocido como “El bandido Cucaracha”.</p>
+      <p>Por otro lado, Lanaja permaneció leal al gobierno de la República hasta la caída del frente de Aragón en marzo de 1938, por lo que sufrió intensos bombardeos por parte de la aviación del ejército de Franco. </p>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="direccion">
+    <strong>Ayuntamiento de Lanaja</strong>
+    <p>Plaza Mayor,  8 -22250-  Lanaja(Huesca)  <strong>Teléfono:</strong> 974 57 40 01  <strong>Fax:</strong> 974 11 80 12</p>
+    </div>
+      <div class="row"> 
+        <div class="col-lg-5">
+          <div class="redes-sociales">
+          <p>Siguenos en:</p>
+          <ul id="sprite">
+          <li id="panel1">
+            <a href="#"></a>
+          </li>
+          <li id="panel2">
+            <a href="#"></a>
+          </li>
+          <li id="panel3">
+            <a href="#"></a>
+          </li>
+          </ul>
+          </div>
+        </div>
+        <div class="col-lg-7">
+        <a href="#">Mapa web</a>
+        <a href="#">Política de privacidad</a>
+        <a href="#">Aviso legal</a>
+        <a href="#">Sobre nosotros</a>
+        <div class="imagenes">
+          <a href="#"><img src="../imagenes/dph.gif" alt=""></a>
+          <a href="#"><img src="../imagenes/planavanza.gif" alt="" class="avanza"></a>
+          <a href="#"><img src="../imagenes/gobiernoaragon.gif" alt=""></a>
+        </div>
+        </div>
+      </div>
+  </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="../js/jquery-1.12.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/util.js"></script>
+  </body>
+</html>

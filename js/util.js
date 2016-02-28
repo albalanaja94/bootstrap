@@ -7,3 +7,10 @@ $(document).ready($(function ()
     });
   
 }));
+
+$(document).ready($(function ()
+{ 
+$('#verMasTrazado').click(function(){
+        $('#verMasTrazado .imagenTrazado').slideToggle("slow");
+     });         
+}));
