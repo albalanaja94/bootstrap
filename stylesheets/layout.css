@@ -574,3 +574,151 @@
   background-color: #863C93;
   background-color: rgba(134, 60, 147, 0.6);
 }
+
+/* line 526, ../sass/layout.scss */
+.contentSS {
+  background-color: #FCEBF6;
+  padding-top: 20px;
+  font-family: 'Lato', sans-serif;
+}
+/* line 531, ../sass/layout.scss */
+.contentSS .col-lg-4 .video {
+  width: 360px;
+  margin: 0 auto;
+}
+/* line 534, ../sass/layout.scss */
+.contentSS .col-lg-4 .video iframe {
+  box-shadow: 1px 2px 23px 10px #e0a2e0;
+}
+/* line 539, ../sass/layout.scss */
+.contentSS .col-lg-5 {
+  margin-bottom: 15px;
+}
+/* line 541, ../sass/layout.scss */
+.contentSS .col-lg-5 > h3 {
+  font-weight: 700;
+  background-color: #863C93;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+/* line 548, ../sass/layout.scss */
+.contentSS .col-lg-5 .historia {
+  background-color: #F8BFF3;
+  background-color: rgba(248, 191, 243, 0.6);
+  padding: 10px;
+  font-size: 15px;
+}
+/* line 556, ../sass/layout.scss */
+.contentSS .col-lg-3 .hoguera > img {
+  max-width: 280px;
+  box-shadow: 1px 2px 23px 10px #e0a2e0;
+}
+/* line 562, ../sass/layout.scss */
+.contentSS .col-lg-8 {
+  margin-bottom: 15px;
+}
+/* line 564, ../sass/layout.scss */
+.contentSS .col-lg-8 > h3 {
+  font-weight: 700;
+  background-color: #863C93;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+/* line 571, ../sass/layout.scss */
+.contentSS .col-lg-8 > .contenidoSanJose {
+  background-color: #F8BFF3;
+  background-color: rgba(248, 191, 243, 0.6);
+  padding: 10px;
+  font-size: 15px;
+}
+/* line 578, ../sass/layout.scss */
+.contentSS .col-lg-4.double {
+  margin-bottom: 30px;
+}
+/* line 580, ../sass/layout.scss */
+.contentSS .col-lg-4.double .imagenesSanJose {
+  max-width: 350px;
+  margin: 0 auto;
+}
+/* line 583, ../sass/layout.scss */
+.contentSS .col-lg-4.double .imagenesSanJose > img {
+  max-width: 350px;
+  box-shadow: 1px 2px 23px 10px #e0a2e0;
+}
+
+/* line 591, ../sass/layout.scss */
+.contentA {
+  background-color: #FCEBF6;
+  padding-top: 20px;
+  font-family: 'Lato', sans-serif;
+}
+/* line 596, ../sass/layout.scss */
+.contentA .col-lg-6.first > h3 {
+  font-weight: 700;
+  background-color: #863C93;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+/* line 603, ../sass/layout.scss */
+.contentA .col-lg-6.first .alcalde {
+  background-color: #F8BFF3;
+  background-color: rgba(248, 191, 243, 0.6);
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+/* line 609, ../sass/layout.scss */
+.contentA .col-lg-6.first .diputados {
+  background-color: #F8BFF3;
+  background-color: rgba(248, 191, 243, 0.6);
+}
+/* line 611, ../sass/layout.scss */
+.contentA .col-lg-6.first .diputados > li {
+  padding: 5px;
+}
+/* line 616, ../sass/layout.scss */
+.contentA .col-lg-6.last {
+  margin-bottom: 15px;
+}
+/* line 618, ../sass/layout.scss */
+.contentA .col-lg-6.last > h3 {
+  font-weight: 700;
+  background-color: #863C93;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+/* line 625, ../sass/layout.scss */
+.contentA .col-lg-6.last > .horario {
+  background-color: #F8BFF3;
+  background-color: rgba(248, 191, 243, 0.6);
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+/* line 631, ../sass/layout.scss */
+.contentA .col-lg-6.last form {
+  background-color: #F8BFF3;
+  background-color: rgba(248, 191, 243, 0.6);
+  padding: 10px;
+}
+/* line 634, ../sass/layout.scss */
+.contentA .col-lg-6.last form .btn-default {
+  margin-bottom: 20px;
+  background-color: #863C93;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* line 640, ../sass/layout.scss */
+.contentA .col-lg-6.last form .btn-default:hover {
+  background-color: #863C93;
+  background-color: rgba(134, 60, 147, 0.5);
+}
+/* line 644, ../sass/layout.scss */
+.contentA .col-lg-6.last form p {
+  font-style: italic;
+}

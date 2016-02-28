@@ -522,3 +522,128 @@
 				}
 			}
 		}
+	//* ****** SAN SEBASTIAN *** */
+	.contentSS{
+		background-color: #FCEBF6;
+		padding-top: 20px;
+		font-family: 'Lato', sans-serif;
+		.col-lg-4{
+			.video{
+				width: 360px;
+    		margin: 0 auto;
+    		iframe{
+    			box-shadow: 1px 2px 23px 10px rgba(224,162,224,1);
+    		}
+			}
+		}
+		.col-lg-5{
+			margin-bottom: 15px;
+			& > h3{
+				font-weight: 700;
+				background-color: #863C93;
+				color: white;
+				padding: 10px;
+				margin: 0;
+			}
+			.historia{
+				@include rgba-fallback(bg, #F8BFF3, 0.6);
+				padding: 10px;
+				font-size: 15px;
+			}
+		}
+		.col-lg-3{
+			.hoguera{
+				& > img{
+					max-width: 280px;
+					box-shadow: 1px 2px 23px 10px rgba(224,162,224,1);
+				}
+			}
+		}
+		.col-lg-8{
+			margin-bottom: 15px;
+			& > h3{
+				font-weight: 700;
+				background-color: #863C93;
+				color: white;
+				padding: 10px;
+				margin: 0;
+			}
+			& > .contenidoSanJose{
+				@include rgba-fallback(bg, #F8BFF3, 0.6);
+				padding: 10px;
+				font-size: 15px;
+			}
+
+		}
+		.col-lg-4.double{
+			margin-bottom: 30px;
+			.imagenesSanJose{
+				max-width: 350px;
+				margin: 0 auto;
+				& > img{
+					max-width: 350px;
+					box-shadow: 1px 2px 23px 10px rgba(224,162,224,1);
+				}
+			}
+		}
+	}
+
+	.contentA{
+		background-color: #FCEBF6;
+		padding-top: 20px;
+		font-family: 'Lato', sans-serif;
+		.col-lg-6.first{
+			& > h3{
+				font-weight: 700;
+				background-color: #863C93;
+				color: white;
+				padding: 10px;
+				margin: 0;
+			}
+			.alcalde{
+				@include rgba-fallback(bg, #F8BFF3, 0.6);
+				padding: 10px;
+				font-size: 15px;
+				margin-bottom: 15px;
+			}
+			.diputados{
+				@include rgba-fallback(bg, #F8BFF3, 0.6);
+				& > li{
+					padding: 5px;
+				}
+			}
+		}
+		.col-lg-6.last{
+			margin-bottom: 15px;
+			& > h3{
+				font-weight: 700;
+				background-color: #863C93;
+				color: white;
+				padding: 10px;
+				margin: 0;
+			}
+			& > .horario{
+				@include rgba-fallback(bg, #F8BFF3, 0.6);
+				padding: 10px;
+				font-size: 15px;
+				margin-bottom: 15px;
+			}
+			form{
+				@include rgba-fallback(bg, #F8BFF3, 0.6);
+				padding: 10px;
+				.btn-default{
+					margin-bottom: 20px;
+					background-color: #863C93;
+					color: white;
+					font-weight: 700;
+					text-transform: uppercase;
+					&:hover{
+						@include rgba-fallback(bg, #863C93, 0.5);
+					}
+				}
+				p{
+					font-style: italic;
+				}
+			}
+		}
+	}
